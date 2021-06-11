@@ -208,7 +208,7 @@ padding-left: 20px;
 }
 .modallower::before{
   position: absolute;
-  content:'------ UI/UX Designer -----';
+  content:'------ UI/UX Designer ------';
   color: green;
   font-size: 12px;
   left: 0px;
