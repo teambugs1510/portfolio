@@ -232,7 +232,7 @@ padding-left: 20px;
 @media  (max-width: 768.99px){
  .modal-content::before{
 
-  font-size: 10rem;
+  font-size: 8rem;
 
 } 
 }
