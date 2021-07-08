@@ -176,7 +176,7 @@ h3.section-title {
 .right-img{
 	  width: 100%;
 	  height: auto;
-    padding-top: 20px;
+    margin-top: 20px;
     box-shadow: 1px 5px 10px rgba(0,0,0,0.253);
 }
 
