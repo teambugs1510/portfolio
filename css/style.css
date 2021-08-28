@@ -469,4 +469,9 @@ align-items: center;
 .flip-card-front h3{
   font-size: 35px;
 }
+flip-card-back h1{
+  
+  font-size: 35px;
+
+}
 }
