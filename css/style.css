@@ -386,6 +386,7 @@ align-items: center;
   text-transform: uppercase;
   color: #888;
   text-align: left;
+  font-size: 25px;
 
 }
 .flip-card-back p{
