@@ -131,7 +131,7 @@ h3.section-title {
 .textwhite{
   color: var(--black-text)!important;
 }
-.textwhite1, textwhite2{
+.textwhite1, .textwhite2{
   color: var(--white-text);
 }
 .textwhite2:hover{
