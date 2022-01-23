@@ -286,7 +286,7 @@ PSD to HTML, PSD to WordPress <br><br>
       <div class="col-sm-6">
         <div class="card">
           <h4 class="card-title">2021</h4>
-          <h6 class="card-subtitle text-uppercase">january</h6>
+          <h6 class="card-subtitle text-uppercase">January 2021 - October 2021</h6>
           <p class="card-text main-para-1">I'm working for a vendor <a href="https://www.plindia.com">PLINDIA</a> as a Web designer(front-end)
               and i have learn many things   <a href="#">#skills</a> from this company and a great work expereince
            . Working with Pro personalities</p>
@@ -294,7 +294,7 @@ PSD to HTML, PSD to WordPress <br><br>
       </div>
       <div class="col-sm-6"><div class="card">
           <h4 class="card-title">2022</h4>
-          <h6 class="card-subtitle text-uppercase">january</h6>
+          <h6 class="card-subtitle text-uppercase">October 2021 - <span id="month"></span> 2022</h6>
           <p class="card-text main-para-1">I'm working for a vendor <a href="https://www.plindia.com">PLINDIA</a> as a .Net developer(back-end)
               as a .net dev i have created many applications with responsive loyout and can be easly scabale</p>
         </div></div>
@@ -433,7 +433,14 @@ Application for the position of web designer.</strong>
 
 
 
-
+<script>
+  const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  
+  const d = new Date();
+  let name = month[d.getMonth()];
+  document.getElementById("month").innerHTML = name;
+  </script>
+  
 
 
 
