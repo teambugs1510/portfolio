@@ -131,10 +131,10 @@ h3.section-title {
 .textwhite{
   color: var(--black-text)!important;
 }
-.textwhite1{
+.textwhite1, textwhite2{
   color: var(--white-text);
 }
-.textwhite1:hover{
+.textwhite2:hover{
   color: var(--yellow-color);
   text-decoration: none;
 }
