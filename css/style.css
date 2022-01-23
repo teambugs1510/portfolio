@@ -134,6 +134,9 @@ h3.section-title {
 .textwhite1{
   color: var(--white-text);
 }
+.textwhite1:hover{
+  color: var(--yellow-color);
+}
 .icon-bar {
   width: 100%;
   background-color: var(--white-back);
