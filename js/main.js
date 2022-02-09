@@ -37,7 +37,7 @@ if(doin >= 20){
   backcolor.classList.toggle("darkmode");
   backcolor1.classList.toggle("darkmode");
   bgwhite.classList.toggle("darkmode");
-}else if(doin == 7){
+}else if(doin <= 20){
   backcolor.classList.remove("darkmode");
   backcolor1.classList.remove("darkmode");
   bgwhite.classList.remove("darkmode");
