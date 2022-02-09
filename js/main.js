@@ -33,15 +33,29 @@ let bgwhite = document.querySelector(".bg_white");
 let mytime = new Date();
 let doin = mytime.getHours();
 
-if(doin >= 20){
+if(doin >= 18 || doin <= 8){
   backcolor.classList.toggle("darkmode");
   backcolor1.classList.toggle("darkmode");
   bgwhite.classList.toggle("darkmode");
-  darkbtn.textContent="Lite mode";
-}else if(doin <= 20){
+  if(document.body.classList.toggle("darkmode")){
+    darkbtn.textContent="Lite mode";
+  
+  }else{
+    darkbtn.textContent="Dark mode";
+
+  }
+}else{
+
   backcolor.classList.remove("darkmode");
   backcolor1.classList.remove("darkmode");
   bgwhite.classList.remove("darkmode");
+  if(document.body.classList.remove("darkmode")){
+    darkbtn.textContent="Lite mode";
+  
+  }else{
+    darkbtn.textContent="Dark mode";
+
+  }
 
 }
 
@@ -49,6 +63,7 @@ darkbtn.addEventListener("click" , () =>{
   backcolor.classList.toggle("darkmode");
   backcolor1.classList.toggle("darkmode");
   bgwhite.classList.toggle("darkmode");
+
 
   if(document.body.classList.toggle("darkmode")){
     darkbtn.textContent="Lite mode";
@@ -72,3 +87,5 @@ darkbtn.addEventListener("click" , () =>{
   let name = month[d.getMonth()];
   document.getElementById("month").innerHTML = name;
  
+
+
