@@ -30,6 +30,19 @@ let darkbtn = document.querySelector("#darkbtn");
 let backcolor = document.querySelector(".bgleft");
 let backcolor1 = document.querySelector(".bgleft1");
 let bgwhite = document.querySelector(".bg_white");
+let mytime = new Date();
+let doin = mytime.getHours();
+
+if(doin >= 20){
+  backcolor.classList.toggle("darkmode");
+  backcolor1.classList.toggle("darkmode");
+  bgwhite.classList.toggle("darkmode");
+}else if(doin == 7){
+  backcolor.classList.remove("darkmode");
+  backcolor1.classList.remove("darkmode");
+  bgwhite.classList.remove("darkmode");
+
+}
 
 darkbtn.addEventListener("click" , () =>{
   backcolor.classList.toggle("darkmode");
